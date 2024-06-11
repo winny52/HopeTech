@@ -10,11 +10,12 @@ import ServicesPage from "./components/ServicesPage";
 import Testimonials from './components/Testimonials';
 import WhyChooseUs from './components/WhyChooseUs';
 import FAQ from './components/FAQ';
-// import OurWork from './OurWork';
-// import Contact from './Contact';
+// import OurWork from '.components/OurWork';
+// import Contact from './components/Contact';
 
 const App = () => {
   return (
+    
     <Router>
       <Navbar />
       <Routes>
@@ -26,10 +27,11 @@ const App = () => {
         <Route path="/services/solutions" element={<Solutions />} />
         <Route path="/services/services" element={<ServicesPage />} />
         <Route path="/portfolio/testimonials" element={<Testimonials />} />
-        {/* <Route path="/portfolio/our-work" element={<OurWork />} /> */}
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        {/* <Route path="/portfolio/our-work" element={<OurWork />} />  */}
+         {/* <Route path="/contact" element={<Contact />} /> */}
       </Routes>
     </Router>
+    
   );
 };
 

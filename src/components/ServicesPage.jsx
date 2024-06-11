@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ServicesPage = () => {  return (
-    <div className="bg-gray-900 text-white">
+    <div className="bg-gray-900 text-white p-4 rounded-2xl">
       <div className="container mx-auto py-12">
         <h2 className="text-3xl font-semibold mb-8">Our Services</h2>
         <p className="mb-8">At HopeTech, we offer a wide range of services designed to help you achieve your business goals. Whether you’re looking to build a new website from scratch, revamp your existing site, or develop custom web applications, we have the expertise and experience to deliver top-notch solutions tailored to your needs.</p>

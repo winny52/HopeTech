@@ -3,7 +3,7 @@ import React from "react";
 
 const Solutions = () => {
     return (
-        <div>
+        <div className="rounded-2xl">
             <p>Solutions</p>
         </div>
     )

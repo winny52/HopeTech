@@ -9,15 +9,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-gray-800 p-8 mb-5  rounded-2xl">
+      <div className="container mx-aut0 flex justify-between items-center">
         <span className="text-white font-semibold text-lg">Logo</span>
         <button className="text-white text-xl md:hidden" onClick={toggleNavbar}>
           {isOpen ? 'Close' : 'Menu'}
         </button>
-        <ul className={`md:flex md:items-center space-x-4 ${isOpen ? 'block' : 'hidden'}`}>
-          <li className="relative group">
-            <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded">
+        <ul className={`md:flex md:items-center space-7 ${isOpen ? 'block' : 'hidden'}`}>
+          <li className=" ">
+            <Link to="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded ">
               Home
             </Link>
           </li>
