@@ -2,7 +2,6 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import WelcomeSection from './WelcomeSection';
 import WhyChooseUs from './WhyChooseUs';
-import Footer from './Footer';
 
 const HeroSection = () => {
   const images = [
@@ -52,7 +51,6 @@ const HeroSection = () => {
       </div>
       <WelcomeSection/>
 <WhyChooseUs/>
-<Footer/>
     </div>
   );
 };
