@@ -11,12 +11,14 @@ import Testimonials from './components/Testimonials';
 import WhyChooseUs from './components/WhyChooseUs';
 import FAQ from './components/FAQ';
 // import OurWork from '.components/OurWork';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
+import Header from './components/Header';
 
 const App = () => {
   return (
     
     <Router>
+      <Header/>
       <Navbar />
       <Routes>
         <Route path="/" element={<HeroSection />} />
@@ -28,7 +30,7 @@ const App = () => {
         <Route path="/services/services" element={<ServicesPage />} />
         <Route path="/portfolio/testimonials" element={<Testimonials />} />
         {/* <Route path="/portfolio/our-work" element={<OurWork />} />  */}
-         {/* <Route path="/contact" element={<Contact />} /> */}
+         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
     
