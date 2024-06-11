@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import WelcomeSection from './WelcomeSection';
 import WhyChooseUs from './WhyChooseUs';
 
 const HeroSection = () => {
@@ -48,6 +49,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <WelcomeSection/>
 <WhyChooseUs/>
     </div>
   );
