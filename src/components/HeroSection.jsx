@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import WhyChooseUs from './WhyChooseUs';
 
 const HeroSection = () => {
   const images = [
@@ -47,7 +48,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-
+<WhyChooseUs/>
     </div>
   );
 };

@@ -1,4 +1,10 @@
 import React from 'react';
+// import WebsiteDesignImage from '../assets/webdesignanddev.jpg';
+// import ResponsiveDesignImage from '../assets/responsivedesign.jpg';
+// import ECommerceImage from '../assets/ecommerce solution.jpg';
+
+
+
 
 const ServicesPage = () => {  return (
     <div className="bg-gray-900 text-white p-4 rounded-2xl">
