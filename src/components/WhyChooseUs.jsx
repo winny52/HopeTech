@@ -2,8 +2,8 @@ import React from 'react';
 
 function WhyChooseUs() {
   return (
-    <div className="bg-gray-900 text-white rounded-2xl">
-      <div className="container mx-auto py-12">
+    <div className=" text-blue-500 rounded-2xl">
+      <div className="container flex flex-col items-center mx-auto py-12">
         <h2 className="text-3xl font-semibold mb-8">Why Choose HopeTech?</h2>
         <p className="mb-8">Choosing the right partner for your web design and development needs is crucial to the success of your project. At HopeTech, we understand that you have many options, and we strive to stand out from the competition by offering unparalleled service, expertise, and results.</p>
 

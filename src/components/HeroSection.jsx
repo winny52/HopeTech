@@ -32,7 +32,7 @@ const HeroSection = () => {
 
   };
   return (
-    <div className="  mx-auto h-screen  bg-gray-900">
+    <div className="   h-screen ">
       {/* <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
         <source src="/path/to/your/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
