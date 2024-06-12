@@ -1,6 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 function WhyChooseUs() {
+  const navigateto = useNavigate();
+
+  const handleClicksecond = () => {
+    navigateto('/contact');
+  };
+
+
+
   return (
     <div className=" text-blue-900 rounded-2xl pt-20">
       <div className="container flex flex-col  mx-auto py-12">
@@ -50,7 +59,7 @@ function WhyChooseUs() {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button  onClick={handleClicksecond}  className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>

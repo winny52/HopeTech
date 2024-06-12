@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate} from 'react-router-dom';
 import Step1Image from '../assets/STEP1.jpg';
 import Step2Image from '../assets/STEP2.jpg';
 import Step3Image from '../assets/STEP3.jpg';
@@ -8,6 +9,14 @@ import Step6Image from '../assets/STEP6.jpg';
 import Step7Image from '../assets/STEP7.jpg';
 
 const OurProcess = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/detailedprocess');
+  };
+
+
+
   return (
     <div className="container mx-auto p-6 pt-20 rounded-2xl">
       <h2 className="text-3xl font-bold mb-6">Our Process: A Seamless Journey from Concept to Launch</h2>
@@ -59,8 +68,8 @@ const OurProcess = () => {
         <p>Infographic or step-by-step illustration</p>
       </div>
       <div className="text-center mt-6">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button>
-        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
+        <button  onClick={handleClick}   className="bg-gray-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button>
+        <button className="bg-gray-900 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
       </div>
     </div>
   );
