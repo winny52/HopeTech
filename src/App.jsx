@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as  Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutPage from './components/AboutPage';
@@ -19,7 +19,7 @@ import Header from './components/Header';
 const App = () => {
   return (
     
-    <Router>
+    <div>
       <Header/>
       <Navbar />
       <Routes>
@@ -36,7 +36,7 @@ const App = () => {
          
       </Routes>
       <Footer/>
-    </Router>
+    </div>
     
   );
 };
