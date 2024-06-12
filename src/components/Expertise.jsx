@@ -1,6 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
+
+
 
 const ExpertiseSection = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+  
   return (
     <div className="py-16 pt-20 bg-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +45,7 @@ const ExpertiseSection = () => {
             </p>
 
             <div className="mt-8">
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100">
+              <button   onClick={handleClick}   className="bg-blue-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100">
                 Get a Free Quote
               </button>
             </div>

@@ -1,6 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
+
 
 function AboutPage() {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/services/services');
+  };
+
   return (
     <div className="about-page pt-20 text-blue-900 p-6 flex justify-center items-center ">
       <div className="container m-4">
@@ -8,7 +17,7 @@ function AboutPage() {
         <p className='w-3/4 text-xl'>HopeTech is a leading web design and development agency committed to bringing your digital vision to life. With 10+ years of experience, our team of experts specializes in creating responsive, user-friendly, and visually captivating websites that drive results.</p>
         
         <div className="story-section m-8">
-          <h3 className='text-xl font-semibold'>Discover Our Story</h3>
+          <h3 className='text-xl  items-center font-semibold'>Discover Our Story</h3>
           <p className='text-lg'>
             Founded in 2012, HopeTech started as a small team of passionate developers and designers who wanted to make a difference in the digital world. Over the years, we have grown into a full-service digital agency with a diverse team of experts. Our journey has been fueled by our commitment to quality, innovation, and customer satisfaction.
           </p>
@@ -43,13 +52,13 @@ function AboutPage() {
         </div>
 
         <div className="team-section mb-8">
-          <h3 className="text-xl font-semibold">Meet the Team</h3>
+          <h3 className="text-xl items-center font-semibold">Meet the Team</h3>
           <p>Our team is our greatest asset. We are a group of talented and dedicated professionals with a shared passion for technology and design. From our project managers and developers to our designers and support staff, everyone at HopeTech is committed to providing the best possible service to our clients.</p>
           {/* Add team photos and office environment visuals here */}
         </div>
 
         <div className="cta-section text-center">
-          <button className="explore-services-btn bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Explore Our Services</button>
+          <button   onClick={handleClick}   className="explore-services-btn bg-blue-600 hover-bg-gray-900 text-white py-2 px-4 rounded-md hover:bg-blue-700">Explore Our Services</button>
         </div>
       </div>
     </div>

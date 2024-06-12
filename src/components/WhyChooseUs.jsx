@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
+import ExpertiseSection from './Expertise';
 
 function WhyChooseUs() {
   const navigateto = useNavigate();
@@ -62,6 +63,7 @@ function WhyChooseUs() {
           <button  onClick={handleClicksecond}  className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
+      <ExpertiseSection/>
     </div>
   );
 }
