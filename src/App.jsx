@@ -11,6 +11,7 @@ import FAQ from './components/FAQ';
 import OurProcess from './components/OurProcess';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import ExpertiseSection from './components/Expertise';
 
 
 const App = () => {
@@ -30,6 +31,9 @@ const App = () => {
             <Route path="/services/services" element={<ServicesPage />} />
             <Route path="/portfolio/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
+             <Route path="/expertise" element={<ExpertiseSection />} /> 
+
+
           </Routes>
         </div>
         <Footer />

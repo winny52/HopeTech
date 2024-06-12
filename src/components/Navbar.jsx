@@ -37,6 +37,11 @@ const Navbar = () => {
                   Why Choose Us
                 </Link>
               </li>
+              <li>
+                <Link to="/process" className="block hover:text-blue-400 rounded p-2">
+                  Our Process
+                </Link>
+              </li>
             </ul>
           </li>
           <li className="relative group">
@@ -44,14 +49,15 @@ const Navbar = () => {
               Our Services
             </span>
             <ul className="absolute left-0 hidden w-48 mt-6 bg-white rounded-b-2xl group-hover:block">
+              
               <li>
-                <Link to="/services/solutions" className="block hover:text-blue-400 rounded p-2">
-                  Solutions
+                <Link to="/services/services" className="block hover:text-blue-400 rounded p-2">
+                  Our Services
                 </Link>
               </li>
               <li>
-                <Link to="/services/services" className="block hover:text-blue-400 rounded p-2">
-                  Services
+                <Link to="/expertise" className="block hover:text-blue-400 rounded p-2">
+                  Our Expertise
                 </Link>
               </li>
             </ul>
