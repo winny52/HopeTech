@@ -10,15 +10,15 @@ const Footer =() => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><Link to="/services">Website Design & Development</Link></li>
-              <li><Link to="/services">Responsive Design</Link></li>
-              <li><Link to="/services">E-commerce Solutions</Link></li>
-              <li><Link to="/services">Custom Web Applications</Link></li>
-              <li><Link to="/services">SEO Services</Link></li>
-              <li><Link to="/services">Content Creation</Link></li>
-              <li><Link to="/services">UI/UX Design</Link></li>
-              <li><Link to="/services">Web Maintenance</Link></li>
-              <li><Link to="/services">PPC Advertising</Link></li>
+              <li><Link to="/services/services">Website Design & Development</Link></li>
+              <li><Link to="/services/services">Responsive Design</Link></li>
+              <li><Link to="/services/services">E-commerce Solutions</Link></li>
+              <li><Link to="/services/services">Custom Web Applications</Link></li>
+              <li><Link to="/services/services">SEO Services</Link></li>
+              <li><Link to="/services/services">Content Creation</Link></li>
+              <li><Link to="/services/services">UI/UX Design</Link></li>
+              <li><Link to="/services/services">Web Maintenance</Link></li>
+              <li><Link to="/services/services">PPC Advertising</Link></li>
             </ul>
           </div>
 
@@ -26,10 +26,10 @@ const Footer =() => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><Link to="/about">Why Choose Us?</Link></li>
+              <li><Link to="/about/why-choose-us">Why Choose Us?</Link></li>
               <li><Link to="/about">Who Are We?</Link></li>
               <li><Link to="/portfolio">Portfolio: Sample Projects</Link></li>
-              <li><Link to="/testimonials">Customer Testimonials</Link></li>
+              <li><Link to="/portfolio/testimonials">Customer Testimonials</Link></li>
             </ul>
           </div>
 
@@ -38,7 +38,7 @@ const Footer =() => {
             <h4 className="text-lg font-semibold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li><Link to="/process">How It Works: Our Process</Link></li>
-              <li><Link to="/contact">FAQs</Link></li>
+              <li><Link to="/faqs">FAQs</Link></li>
             </ul>
           </div>
 
@@ -47,9 +47,9 @@ const Footer =() => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
               <li><Link to="/contact">Live Chat</Link></li>
-              <li>Email: contact@hopetech.com</li>
-              <li>Phone Number: (123) 456-7890</li>
-              <li>Address: 1234 HopeTech St, Techville, USA</li>
+              <li>Email: mgt@hopetech.com</li>
+              <li>Phone Number: 0712345678</li>
+              <li>Address: Nairobi Kenya</li>
             </ul>
           </div>
         </div>
