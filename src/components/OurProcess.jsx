@@ -64,9 +64,7 @@ const OurProcess = () => {
           <img src={Step7Image} alt="Step 7" className="mt-4 mx-auto" />
         </div>
       </div>
-      <div className="text-center mt-6">
-        <p>Infographic or step-by-step illustration</p>
-      </div>
+      
       <div className="text-center mt-6">
         <button  onClick={handleClick}   className="bg-gray-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button>
         <button className="bg-gray-900 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
