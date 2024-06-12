@@ -2,7 +2,7 @@ import React from 'react';
 
 function WhyChooseUs() {
   return (
-    <div className=" text-blue-900 rounded-2xl">
+    <div className=" text-blue-900 rounded-2xl pt-20">
       <div className="container flex flex-col  mx-auto py-12">
         <div className='m-10 flex  items-center'>
           <section>
@@ -45,7 +45,7 @@ function WhyChooseUs() {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-white hover:bg-gray-900 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>

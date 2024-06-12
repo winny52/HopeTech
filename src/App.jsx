@@ -11,13 +11,13 @@ import FAQ from './components/FAQ';
 import OurProcess from './components/OurProcess';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Header from './components/Header';
+
 
 const App = () => {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        <Header />
+        
         <Navbar />
         <div className="flex-1">
           <Routes>

@@ -9,7 +9,7 @@ import React from 'react';
 
 const ServicesPage = () => {  
   return (
-    <div className=" text-blue-900 p-4 rounded-2xl">
+    <div className=" text-blue-900 p-4 pt-16 rounded-2xl">
       <div className="container mx-auto py-12">
         <div className='m-10 flex items-center'>
           <section>
