@@ -9,11 +9,11 @@ import Step6Image from '../assets/STEP6.jpg';
 import Step7Image from '../assets/STEP7.jpg';
 
 const OurProcess = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate('/detailedprocess');
-  };
+  // const handleClick = () => {
+  //   navigate('/detailedprocess');
+  // };
 
 
 
@@ -65,10 +65,10 @@ const OurProcess = () => {
         </div>
       </div>
      
-      <div className="text-center mt-6">
+      {/* <div className="text-center mt-6">
         <button  onClick={handleClick}   className="bg-gray-900 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4">Learn More About Our Process</button>
         <button className="bg-gray-900 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Get A Free Quote</button>
-      </div>
+      </div> */}
     </div>
   );
 };
