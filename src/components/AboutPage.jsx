@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-
+import Solutions from './Solutions';
 
 function AboutPage() {
 
@@ -11,6 +11,7 @@ function AboutPage() {
   };
 
   return (
+    <div>
     <div className="about-page pt-20 text-blue-900 p-6 flex justify-center items-center ">
       <div className="container m-4">
         <h2 className='text-4xl text-blue-700 font-semibold mb-8'>About HopeTech</h2>
@@ -62,6 +63,8 @@ function AboutPage() {
         </div>
       </div>
     </div>
+          <Solutions/> </div>
+
   );
 }
 
