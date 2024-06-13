@@ -51,7 +51,7 @@ const HeroSection = () => {
 
   };
   return (
-    <div className="pt-6 ">
+    <div className="pt-6 md:w-screen">
       {/* <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
         <source src="/path/to/your/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
