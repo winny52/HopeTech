@@ -47,16 +47,17 @@ const HeroSection = () => {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('${images[currentImageIndex]}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-    minHeight: "100vh",
+    minHeight: "135vh",
+    minWidth:"100vh"
 
   };
   return (
-    <div className="pt-6 md:w-screen">
+    <div className=" md:w-screen">
       {/* <video autoPlay muted loop className="absolute inset-0 w-full h-full object-cover">
         <source src="/path/to/your/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video> */}
-      <div className="flex items-center justify-center  min-h-screen " style={divStyle}>
+      <div className="flex items-center justify-center  md:min-w-screen " style={divStyle}>
         <div className="container w-full flex flex-col items-center ">
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">Transform Your Digital Presence with HopeTech</h1>
           <h2 className="mt-6 text-lg leading-8 text-gray-300 text-center font-semibold">Cutting-Edge Web Design & Development Solutions Tailored to Your Needs</h2>
