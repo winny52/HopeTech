@@ -15,15 +15,16 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import ExpertiseSection from './components/Expertise';
 import DetailedProcess from './components/DetailedProcess';
-
-
+import ScrollToTopWrapper from './components/Wrapper';
 const App = () => {
+  
   return (
     <div>
       <div className="flex flex-col min-h-screen">
         
         <Navbar />
         <div className="flex-1">
+        <ScrollToTopWrapper>
           <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/about" element={<AboutPage />} />
@@ -38,6 +39,7 @@ const App = () => {
            <Route path="/detailedprocess" element={<DetailedProcess/>}/>
 
           </Routes>
+          </ScrollToTopWrapper>
         </div>
         <Footer />
       </div>
