@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center  ">
         <span className="font-semibold text-lg">Logo</span>
         <button className="text-xl md:hidden" onClick={toggleNavbar}>
-          {isOpen ? '' : 'Menu'}
+          {isOpen ? 'Close' : 'Menu'}
         </button>
         <ul className={`md:flex md:items-center space-x-7 md:flex-row w-1/2 md:w-auto justify-between   md:h-auto md:static ${isOpen ? 'block fixed bg-white top-4 left-0 h-screen' : 'hidden'}`}>
           <li>
