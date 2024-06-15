@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const ExpertiseSection = () => {
   const navigate = useNavigate();
@@ -7,6 +7,7 @@ const ExpertiseSection = () => {
   const handleClick = () => {
     navigate('/contact');
   };
+
 
   return (
     <div className="py-20">
@@ -49,7 +50,8 @@ const ExpertiseSection = () => {
           <div className="bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl m-4 w-full sm:w-5/6 md:w-2/5 lg:w-1/3 m-8">
             <h3 className="text-xl font-bold text-gray-900 mt-8 md:mt-0">Innovative Techniques</h3>
             <p className="mt-4 text-lg text-gray-600">
-              The digital landscape is constantly evolving, and we stay ahead of the curve by continuously learning and adopting the latest technologies and techniques. We are committed to innovation and excellence, and we use cutting-edge tools and best practices to deliver solutions that are not only visually stunning but also technically advanced. Whether it’s implementing the latest web design trends, optimizing for performance, or ensuring security, we go the extra mile to deliver the best possible results.
+            The digital landscape is constantly evolving, and we stay ahead of the curve by continuously learning and adopting the latest technologies and techniques. We are committed to innovation and excellence, and we use cutting-edge tools and best practices to deliver solutions that are not only visually stunning but also technically advanced. Whether it’s implementing the latest web design trends, optimizing for performance, or ensuring security, we go the extra mile to deliver the best possible results.
+
             </p>
           </div>
         </div>

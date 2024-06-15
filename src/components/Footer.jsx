@@ -26,10 +26,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><Link to="/about/why-choose-us" className="hover:text-blue-400">Why Choose Us?</Link></li>
-              <li><Link to="/about" className="hover:text-blue-400">Who Are We?</Link></li>
-              <li><Link to="/portfolio" className="hover:text-blue-400">Portfolio: Sample Projects</Link></li>
-              <li><Link to="/portfolio/testimonials" className="hover:text-blue-400">Customer Testimonials</Link></li>
+              <li><Link to="/about/expertise">Why Choose Us?</Link></li>
+              <li><Link to="/about">Who Are We?</Link></li>
+              <li><Link to="/portfolio">Portfolio: Sample Projects</Link></li>
+              <li><Link to="/portfolio/testimonials">Customer Testimonials</Link></li>
             </ul>
           </div>
 

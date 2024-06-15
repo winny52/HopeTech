@@ -26,7 +26,7 @@ const Navbar = () => {
             <span className="hover:text-blue-400  rounded pb-8 mt-6 pb-2 cursor-pointer">
               About Us
             </span>
-            <ul className="md:absolute left-0 md:mt-1 hidden md:w-48 bg-white md:mt-6 rounded-b-2xl group-hover:block">
+            <ul className="md:md:absolute left-0 md:md:mt-1 hidden md:md:w-48 bg-white md:md:mt-6 rounded-b-2xl group-hover:block">
               <li>
                 <Link to="/about" className="block hover:text-blue-400 focus:text-blue-400 focus:text-blue-400 rounded p-2">
                   About Us

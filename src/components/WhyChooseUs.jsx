@@ -6,7 +6,7 @@ function WhyChooseUs() {
   const navigateto = useNavigate();
 
   const handleClicksecond = () => {
-    navigateto('/expertise');
+    navigateto('/about/expertise');
   };
 
 
