@@ -38,7 +38,7 @@ const HeroSection = () => {
   }, []);
 
   const divStyle = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('${images[currentImageIndex]}')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 70, 0.5), rgba(0, 0, 70, 0.5)),url('${images[currentImageIndex]}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "135vh",
@@ -51,14 +51,14 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
             Transform Your Digital Presence with HopeTech
           </h1>
-          <h2 className="mt-6 text-lg leading-8 text-gray-300 font-semibold">
+          <h2 className="mt-6 text-lg leading-8 text-white font-semibold">
             Cutting-Edge Web Design & Development Solutions Tailored to Your Needs
           </h2>
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-            <button onClick={handleClickSecond} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800">
+            <button onClick={handleClickSecond} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800 bg-opacity-20 border-2 border-blue-500">
               Get a Free Quote
             </button>
-            <button onClick={handleClick} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800">
+            <button onClick={handleClick} className="cta-button bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-800 bg-opacity-20 border-2 border-blue-500">
               Explore Our Services
             </button>
           </div>

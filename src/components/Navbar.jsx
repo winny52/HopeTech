@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" fixed top-0 w-full   bg-white md:md:p-5 p-2p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-300 z-10 shadow-xl">
+    <nav className=" fixed top-0 w-full   bg-white md:md:p-5 p-2p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-400 z-10 shadow-xl">
       <div className="container mx-auto flex justify-between items-center    ">
         <span className="font-semibold text-lg">Logo</span>
         <button className="text-xl md:hidden" onClick={toggleNavbar}>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/expertise" className="block hover:text-blue-400 rounded p-2">
+                <Link to="/about/expertise" className="block hover:text-blue-400 rounded p-2">
                   Our Expertise
                 </Link>
               </li>
