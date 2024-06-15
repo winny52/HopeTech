@@ -1,13 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import ExpertiseSection from './Expertise';
+
 
 function WhyChooseUs() {
-  // const navigateto = useNavigate();
+  const navigateto = useNavigate();
 
-  // const handleClicksecond = () => {
-  //   navigateto('/contact');
-  // };
+  const handleClicksecond = () => {
+    navigateto('/expertise');
+  };
 
 
 
@@ -59,11 +59,11 @@ function WhyChooseUs() {
           </div>
         </div>
 
-        {/* <div className="text-center mt-8">
-          <button  onClick={handleClicksecond}  className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Get a Free Quote</button>
-        </div> */}
+        <div className="text-center mt-8">
+          <button  onClick={handleClicksecond}  className="bg-blue-500 text-white  hover:bg-gray-800 text-black font-semibold py-2 px-4 rounded">Explore More About Our Expertise</button>
+        </div>
       </div>
-      <ExpertiseSection/>
+    
     </div>
   );
 }

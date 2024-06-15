@@ -3,6 +3,11 @@ import { useState, useEffect } from 'react';
 import WelcomeSection from './WelcomeSection';
 import WhyChooseUs from './WhyChooseUs';
 import { useNavigate } from 'react-router';
+import AboutSection from './AboutSection';
+import Solutions from './Solutions';
+import ProcessPage from './OurProcess';
+import MiniFAQ from './FAQHERO';
+import Testimonials from './Testimonials';
 
 const HeroSection = () => {
 
@@ -67,7 +72,13 @@ const HeroSection = () => {
         </div>
       </div>
       <WelcomeSection />
+      <AboutSection/>
+      <Solutions/>
       <WhyChooseUs />
+      <ProcessPage/>
+      <MiniFAQ/>
+      <Testimonials/>
+
     </div>
   );
 };
