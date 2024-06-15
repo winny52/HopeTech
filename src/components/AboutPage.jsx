@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
-import Solutions from './Solutions';
 
 function AboutPage() {
 
@@ -63,7 +62,7 @@ function AboutPage() {
         </div>
       </div>
     </div>
-          <Solutions/> </div>
+          </div>
 
   );
 }

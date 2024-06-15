@@ -26,7 +26,7 @@ const Footer =() => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><Link to="/about/why-choose-us">Why Choose Us?</Link></li>
+              <li><Link to="/about/expertise">Why Choose Us?</Link></li>
               <li><Link to="/about">Who Are We?</Link></li>
               <li><Link to="/portfolio">Portfolio: Sample Projects</Link></li>
               <li><Link to="/portfolio/testimonials">Customer Testimonials</Link></li>

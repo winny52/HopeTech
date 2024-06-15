@@ -33,7 +33,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/about/why-choose-us" className="block hover:text-blue-400 rounded p-2">
+                <Link to="/about/expertise" className="block hover:text-blue-400 rounded p-2">
                   Why Choose Us
                 </Link>
               </li>
@@ -55,11 +55,7 @@ const Navbar = () => {
                   Our Services
                 </Link>
               </li>
-              <li>
-                <Link to="/expertise" className="block hover:text-blue-400 rounded p-2">
-                  Our Expertise
-                </Link>
-              </li>
+             
             </ul>
           </li>
           <li className="relative group" tabIndex="0">
