@@ -8,8 +8,15 @@ import WebsiteMaintenanceImage from '../assets/websitemaintenance.jpg';
 import SEOServicesImage from '../assets/seo services.jpg';
 import ContentCreationImage from '../assets/contentcreation.jpg';
 import PPCAdvertisingImage from '../assets/ppc.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const ServicesPage = () => {
+  const navigate=useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+  
   return (
     <div className="text-blue-900 p-4 pt-16 rounded-2xl">
       <div className="container mx-auto py-12">
@@ -104,7 +111,7 @@ const ServicesPage = () => {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button   onClick={handleClick}    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>
