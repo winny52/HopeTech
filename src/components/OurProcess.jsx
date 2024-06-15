@@ -10,9 +10,9 @@ const ProcessPage = () => {
 
   return (
     <div className="text-blue-900 py-16 pt-20 rounded-2xl">
-      <div className="container mx-auto px-4 bg-gray-200 rounded-xl shadow-2xl">
+      <div className="container mx-auto p-4 bg-gray-200 rounded-xl shadow-2xl">
         <h2 className="text-4xl font-bold text-center mb-8">Our Process: A Seamless Journey from Concept to Launch</h2>
-        <div className="space-y-6">
+        <div className="space-y-6 pl-10">
           <div>
             <h3 className="text-2xl font-semibold text-blue-800">Step 1: Discovery: Understanding Your Goals and Requirements</h3>
             <p className="text-lg text-gray-700">
@@ -56,7 +56,7 @@ const ProcessPage = () => {
             </p>
           </div>
         </div>
-        <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="mt-8 text-center mb-8">
           <button onClick={handleClick} className="col-span-full px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800">Learn More About Our Process</button>
         </div>
       </div>
