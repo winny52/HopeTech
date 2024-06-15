@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" fixed top-0 w-full  bg-white md:p-5 p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-100 z-10">
+    <nav className=" fixed top-0 w-full  bg-white md:p-5 p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-300 z-10 shadow-xl">
       <div className="container mx-auto flex justify-between items-center  ">
         <span className="font-semibold text-lg">Logo</span>
         <button className="text-xl md:hidden" onClick={toggleNavbar}>

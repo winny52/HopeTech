@@ -21,7 +21,7 @@ function AboutPage() {
           <p className="text-lg">Founded in 2012, HopeTech started as a small team of passionate developers and designers who wanted to make a difference in the digital world. Over the years, we have grown into a full-service digital agency with a diverse team of experts. Our journey has been fueled by our commitment to quality, innovation, and customer satisfaction.</p>
         </div> 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6 text-center md:space-x-12 space-y-8">
           {/* Mission Section */}
           <div className="mission-section bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl">
             <h3 className="text-lg md:text-xl font-semibold mb-4">Our Mission</h3>
@@ -52,7 +52,7 @@ function AboutPage() {
         </div>
 
         <div className="cta-section text-center">
-          <button onClick={handleClick} className="explore-services-btn bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-md">Explore Our Services</button>
+          <button onClick={handleClick} className="explore-services-btn bg-blue-500 hover:bg-blue-800 text-white py-2 px-4 rounded-md">Explore Our Services</button>
         </div>
       </div>
     </div>

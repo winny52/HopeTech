@@ -22,7 +22,7 @@ function WhyChooseUs() {
           <img src='https://images.shiksha.com/mediadata/ugcDocuments/images/wordpressImages/2020_09_5-Best-Programming-Languages-to-Learn-for-Cybersecurity-Professionals-scaled.jpg' alt='' className='rounded-full w-48 h-48 md:w-72 md:h-72 mt-6 md:mt-0' />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-8 space-y-6 md:space-x-6">
           {/* Expert Team */}
           <div className="feature bg-gray-200 p-4 md:p-6 rounded-xl border-b-2 border-r-2 border-blue-500">
             <h3 className="text-lg md:text-xl font-semibold mb-2 md:mb-4">Expert Team</h3>

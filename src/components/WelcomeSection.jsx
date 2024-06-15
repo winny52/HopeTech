@@ -39,7 +39,7 @@ const WelcomeSection    =() => {
             </div>
             {/* Call to action */}
             <div className="mt-12">
-              <button   onClick={handleClick} className="bg-blue-500 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
+              <button   onClick={handleClick} className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 focus:ring-offset-gray-100">
                 Get Started Today!
               </button>
             </div>
