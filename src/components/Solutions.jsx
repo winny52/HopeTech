@@ -1,10 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+const Solutions = () => {
+ const navigate = useNavigate();
+ const handleClick = () => {
+  navigate('/services/services');
+};
 
-const Solutions =() => {
+
   return (
     <div className="rounded-2xl pt-20 container mx-auto py-10 px-5">
       <h1 className="text-3xl font-bold text-blue-900 mb-8">At HopeTech, we offer a comprehensive suite of services to propel your business forward:</h1>
       <div className="space-y-8">
+        {/* Services Sections */}
         <div>
           <h2 className="text-2xl font-semibold text-blue-800">Website Design & Development</h2>
           <p className="text-lg text-gray-700">
@@ -59,6 +66,9 @@ const Solutions =() => {
             Drive targeted traffic and maximize ROI with expertly managed pay-per-click campaigns.
           </p>
         </div>
+      </div>
+      <div className="mt-8 flex justify-center">
+        <button onClick={handleClick} className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-blue-800">Explore Our Services</button>
       </div>
     </div>
   );

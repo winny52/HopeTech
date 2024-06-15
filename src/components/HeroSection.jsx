@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import WelcomeSection from './WelcomeSection';
 import WhyChooseUs from './WhyChooseUs';
+import AboutSection from './AboutSection';
+import Solutions from './Solutions';
+import ProcessPage from './OurProcess';
+import MiniFAQ from './FAQHERO';
+import Testimonials from './Testimonials';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -60,7 +65,13 @@ const HeroSection = () => {
         </div>
       </div>
       <WelcomeSection />
+      <AboutSection/>
+      <Solutions/>
       <WhyChooseUs />
+      <ProcessPage/>
+      <MiniFAQ/>
+      <Testimonials/>
+
     </div>
   );
 };
