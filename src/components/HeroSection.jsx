@@ -7,6 +7,7 @@ import Solutions from './Solutions';
 import ProcessPage from './OurProcess';
 import MiniFAQ from './FAQHERO';
 import Testimonials from './Testimonials';
+import ECommerceImage from '../assets/ecommerce solutions.jpg';
 
 const HeroSection = () => {
   const navigate = useNavigate();
@@ -22,8 +23,7 @@ const HeroSection = () => {
   const images = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlCOVXdzk1grY1xCdnXRXkBbLqHZxHSpAWQ&s",
     "https://p7.hiclipart.com/preview/994/313/176/web-development-responsive-web-design-professional-web-design-web-design.jpg",
-    "https://lh3.googleusercontent.com/proxy/7qA4EzhD9BzXMf1Oa2JgcvO5NbY0TnhgrFTlRI1aMYZ3aIVVoP5u7OBX-8JJkmpzfKoUGrhrMM0RlTdo6sBgFasMEPmSAqoTi16tm9RGwzpFSrccIlEuS9OZhdbSa8VaeRgbHY1b-Zo3hkUUPBQ",
-    "https://wallpapers.com/images/hd/website-background-63kpzzc5jafl7f7k.jpg"
+    ECommerceImage
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -38,7 +38,7 @@ const HeroSection = () => {
   }, []);
 
   const divStyle = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 70, 0.5), rgba(0, 0, 70, 0.5)),url('${images[currentImageIndex]}')`,
+    backgroundImage: `linear-gradient(rgba(70, 70, 70, 0.5), rgba(70, 70, 70, 0.5)),url('${images[currentImageIndex]}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "135vh",
