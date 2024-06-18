@@ -29,13 +29,13 @@ const App = () => {
             <Route path="/" element={<HeroSection />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faqs" element={<FAQ />} />
-            <Route path="/process" element={<OurProcess />} />
+            <Route path="/process" element={<DetailedProcess />} />
             <Route path="/about/why-choose-us" element={<WhyChooseUs />} />
             <Route path="/services/solutions" element={<Solutions />} />
             <Route path="/services/services" element={<ServicesPage />} />
             <Route path="/portfolio/testimonials" element={<Testimonials />} />
             <Route path="/contact" element={<Contact />} />
-             <Route path="/expertise" element={<ExpertiseSection />} /> 
+             <Route path="/about/expertise" element={<ExpertiseSection />} /> 
            <Route path="/detailedprocess" element={<DetailedProcess/>}/>
 
           </Routes>

@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" fixed top-0 w-full  bg-white md:p-5 p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-100 z-10">
-      <div className="container mx-auto flex justify-between items-center  ">
+    <nav className=" fixed top-0 w-full   bg-white md:md:p-5 p-2p-2 text-blue-900 rounded-b-2xl text-lg border-b-2 border-blue-400 z-10 shadow-xl">
+      <div className="container mx-auto flex justify-between items-center    ">
         <span className="font-semibold text-lg">Logo</span>
         <button className="text-xl md:hidden" onClick={toggleNavbar}>
           {isOpen ? 'Close' : 'Menu'}
@@ -26,9 +26,9 @@ const Navbar = () => {
             <span className="hover:text-blue-400  rounded pb-8 mt-6 pb-2 cursor-pointer">
               About Us
             </span>
-            <ul className="md:absolute left-0 md:mt-1 hidden md:w-48 bg-white md:mt-6 rounded-b-2xl group-hover:block">
+            <ul className="md:md:absolute left-0 md:md:mt-1 hidden md:md:w-48 bg-white md:md:mt-6 rounded-b-2xl group-hover:block">
               <li>
-                <Link to="/about" className="block hover:text-blue-400 focus:text-blue-400 rounded p-2">
+                <Link to="/about" className="block hover:text-blue-400 focus:text-blue-400 focus:text-blue-400 rounded p-2">
                   About Us
                 </Link>
               </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/expertise" className="block hover:text-blue-400 rounded p-2">
+                <Link to="/about/expertise" className="block hover:text-blue-400 rounded p-2">
                   Our Expertise
                 </Link>
               </li>

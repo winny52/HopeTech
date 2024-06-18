@@ -8,8 +8,15 @@ import WebsiteMaintenanceImage from '../assets/websitemaintenance.jpg';
 import SEOServicesImage from '../assets/seo services.jpg';
 import ContentCreationImage from '../assets/contentcreation.jpg';
 import PPCAdvertisingImage from '../assets/ppc.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const ServicesPage = () => {
+  const navigate=useNavigate();
+
+  const handleClick = () => {
+    navigate('/contact');
+  };
+  
   return (
     <div className="text-blue-900 p-4 pt-16 rounded-2xl">
       <div className="container mx-auto py-12">
@@ -20,18 +27,18 @@ const ServicesPage = () => {
           </section>
         </div>
 
-        <div className="space-y-8">
+        <div className="space-y-20">
           {/* Website Design & Development */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={WebsiteDesignImage} alt="Website Design & Development" className="w-1/2 h-auto rounded-md mr-4" />
-            <div>
+            <div >
               <h3 className="text-xl font-semibold mb-4">Website Design & Development</h3>
               <p>We create custom websites that are not only visually appealing but also highly functional and user-friendly. Our design process involves a deep understanding of your brand and business objectives, ensuring that your website not only looks great but also performs exceptionally. We use the latest technologies and best practices to build websites that are responsive, fast, and secure.</p>
             </div>
           </div>
 
           {/* Responsive Design */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={ResponsiveDesignImage} alt="Responsive Design" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">Responsive Design</h3>
@@ -40,7 +47,7 @@ const ServicesPage = () => {
           </div>
 
           {/* E-commerce Solutions */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={ECommerceImage} alt="E-commerce Solutions" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">E-commerce Solutions</h3>
@@ -49,7 +56,7 @@ const ServicesPage = () => {
           </div>
 
           {/* Custom Web Applications */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={CustomWebAppsImage} alt="Custom Web Applications" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">Custom Web Applications</h3>
@@ -58,7 +65,7 @@ const ServicesPage = () => {
           </div>
 
           {/* UI/UX Design */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={UIUXDesignImage} alt="UI/UX Design" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">UI/UX Design</h3>
@@ -67,7 +74,7 @@ const ServicesPage = () => {
           </div>
 
           {/* Website Maintenance */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={WebsiteMaintenanceImage} alt="Website Maintenance" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">Website Maintenance</h3>
@@ -76,7 +83,7 @@ const ServicesPage = () => {
           </div>
 
           {/* SEO Services */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={SEOServicesImage} alt="SEO Services" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">SEO Services</h3>
@@ -85,7 +92,7 @@ const ServicesPage = () => {
           </div>
 
           {/* Content Creation */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={ContentCreationImage} alt="Content Creation" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">Content Creation</h3>
@@ -94,7 +101,7 @@ const ServicesPage = () => {
           </div>
 
           {/* PPC Advertising */}
-          <div className="service bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl flex items-center">
+          <div className="service bg-gray-300 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl md:flex items-center">
             <img src={PPCAdvertisingImage} alt="PPC Advertising" className="w-1/2 h-auto rounded-md mr-4" />
             <div>
               <h3 className="text-xl font-semibold mb-4">PPC Advertising</h3>
@@ -104,7 +111,7 @@ const ServicesPage = () => {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
+          <button   onClick={handleClick}    className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">Get a Free Quote</button>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 
 const ExpertiseSection = () => {
   const navigate = useNavigate();
@@ -7,6 +7,7 @@ const ExpertiseSection = () => {
   const handleClick = () => {
     navigate('/contact');
   };
+
 
   return (
     <div className="py-20">
@@ -16,8 +17,8 @@ const ExpertiseSection = () => {
           <p className="text-gray-900 text-lg md:text-xl mx-auto mb-8 max-w-3xl">
             Choosing the right partner for your web design and development needs is crucial to the success of your project. At HopeTech, we understand that you have many options, and we strive to stand out from the competition by offering unparalleled service, expertise, and results.
           </p>
-        </div>
-        <div className="flex flex-wrap justify-center">
+     
+          <div className="flex flex-wrap justify-center">
           <div className="bg-gray-200 p-6 rounded-xl border-b-2 border-r-2 border-blue-500 hover:bg-gray-300 transition duration-300 shadow-2xl m-4 w-full sm:w-5/6 md:w-2/5 lg:w-1/3">
             <h3 className="text-xl font-bold text-gray-900">Expert Team</h3>
             <p className="mt-4 text-lg text-gray-600">
@@ -61,8 +62,18 @@ const ExpertiseSection = () => {
             Get a Free Quote
           </button>
         </div>
+          </div>
+        </div>
+        <div className="mt-8 text-center">
+          <button
+            onClick={handleClick}
+            className="bg-blue-500 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-100"
+          >
+            Get a Free Quote
+          </button>
+        </div>
       </div>
-    </div>
+    
   );
 };
 
