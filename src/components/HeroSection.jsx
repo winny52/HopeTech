@@ -23,6 +23,7 @@ const HeroSection = () => {
   const images = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlCOVXdzk1grY1xCdnXRXkBbLqHZxHSpAWQ&s",
     "https://p7.hiclipart.com/preview/994/313/176/web-development-responsive-web-design-professional-web-design-web-design.jpg",
+    "https://media.licdn.com/dms/image/D5612AQEF706vzumkXA/article-cover_image-shrink_600_2000/0/1705969422703?e=2147483647&v=beta&t=F9PxVHvOdZfyoUyw0oqcPmMtM8DFMF75HcnUm8G0A3k",
     ECommerceImage
   ];
 
@@ -38,7 +39,7 @@ const HeroSection = () => {
   }, []);
 
   const divStyle = {
-    backgroundImage: `linear-gradient(rgba(70, 70, 70, 0.5), rgba(70, 70, 70, 0.5)),url('${images[currentImageIndex]}')`,
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('${images[currentImageIndex]}')`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     minHeight: "135vh",
